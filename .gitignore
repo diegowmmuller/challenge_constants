@@ -1,0 +1,38 @@
+# ==============================
+# Build directories (CMake)
+# ==============================
+cmake-build-*/
+
+# ==============================
+# CLion / IntelliJ
+# ==============================
+.idea/
+*.iml
+
+# ==============================
+# Compiled objects
+# ==============================
+*.o
+*.obj
+
+# ==============================
+# Executables
+# ==============================
+challenge_constants
+*.exe
+*.out
+
+# ==============================
+# CMake generated files (extra safety)
+# ==============================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeConfigureLog.yaml
+Testing/
+
+# ==============================
+# OS specific
+# ==============================
+.DS_Store
+Thumbs.db
